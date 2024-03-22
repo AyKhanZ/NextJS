@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem; 
+  color: #333; 
+  margin-bottom: 2rem; 
+}
+
+.navbar {
+  background-color: #bdbdf3;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: midnightblue;
+  margin: 10px;
+}
+
+.blogs {
+  display:flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
